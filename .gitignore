@@ -1,0 +1,4 @@
+*.class
+bin/com/ferragnez/party/CheckGuest.class
+.project
+.classpath
