@@ -18,7 +18,7 @@ public class CheckGuest {
 		System.out.println("Come ti chiami?");
 		String name = scan.nextLine();
 		boolean presente = false;
-		for(int i = 0; i < guest.length; i++) {
+		/*for(int i = 0; i < guest.length; i++) {
 			if(guest[i].equalsIgnoreCase(name)) {
 				presente = true;
 				break;
@@ -27,8 +27,20 @@ public class CheckGuest {
 		if(presente) {
 			System.out.println("Sei il/la Beveneuto/a " + name + " prenditi qulacosa da bere");
 		}else {
-			System.out.println ("Non sei il/la Beveneuto/a " + name + " torna tra i poveri");
-		}			
+			System.out.println ("Non sei il/la Benvenuto/a " + name + " torna tra i poveri");
+		}	*/
+		int i = 0;
+		while(i < guest.length) {
+			if(guest[i].equalsIgnoreCase(name)) {
+				presente = true;
+				System.out.println("Sei il/la Benvenuto/a " + name + " prenditi qulacosa da bere");
+				break;
+			}
+			i++;
+			}
+		if(!presente) {
+			System.out.println ("Non sei il/la Benvenuto/a " + name + " torna tra i poveri");
+		}
 		
 			
 			
