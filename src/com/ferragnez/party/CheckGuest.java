@@ -42,8 +42,7 @@ public class CheckGuest {
 			System.out.println ("Non sei il/la Benvenuto/a " + name + " torna tra i poveri");
 		}
 		
-			
-			
-											}
+		
+		}
 		}
 	
